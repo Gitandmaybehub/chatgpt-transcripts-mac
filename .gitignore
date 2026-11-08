@@ -1,0 +1,19 @@
+
+# Added 2026-10-29 for the GitHub upload: keep secrets, data and build files out
+.DS_Store
+node_modules/
+build/
+.build/
+DerivedData/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+*.p12
+*.mobileprovision
+*.sqlite
+*.db
+*.log
+chat-history/claude-conversations.md
